@@ -60,51 +60,21 @@ hr{
     width: 1px;
 }
 
-.showcase {
-    width: 90%;
-    height: 550px;
-    background: url(img/eco2.jpg) no-repeat center center/cover;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    margin: auto;
-    border: 1px solid transparent;
-    border-radius: 80px;
-    min-height: 0;
-    
-}
-.showcase h2{
-    font-size: 50px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-    font-style: bold;
-    
-}
-.btn {
-    cursor: pointer;
-    display: inline-block;
-    border: 0;
-    font-weight: bold;
-    padding: 10px 40px;
-    background: #262626;
-    color:  rgb(6, 4, 4);
-    font-size: 15px;
-    border: 1px solid rgb(0, 0, 0);
-
-}
-.btn:hover{
-    opacity: .7;
-}
-.showcase p {
-    background-color: #ffff;
-    margin-bottom: 10px;
-    font-weight: 2000;
-    font-size: 20px;
-    text-align: center;
-}
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  
 /* NEWS CARD*/
 .news-cards {
     display: grid;
@@ -136,7 +106,7 @@ hr{
 }
 .news-cards{
     background-color: rgb(162, 222, 236);
-    border: 1px solid transparent;
+    border: 10px solid transparent;
     border-radius: 30px;
 }
 .news-cards a:hover{
