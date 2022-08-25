@@ -4,9 +4,9 @@
     padding: 0;
 }
 body{
-    background: #618ca8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     font-family: oswald, sans-serif;
     font-weight: 100;
@@ -43,7 +43,7 @@ ul{
     font-weight: 1000;
 }
 .navbar-nav a{
-    left: 122.5%;
+    left: 110%;
     transform: translatex(-50%);
     position: relative;
 }
@@ -76,6 +76,10 @@ hr{
     border: 1px solid transparent;
     border-radius: 80px;
     min-height: 0;
+    
+}
+.showcase h2{
+    font-size: 50px;
     
 }
 .btn {
