@@ -12,51 +12,52 @@ body{
     font-weight: 100;
     font-style: normal;
 }
-a{
-    color: rgb(8, 5, 5);
-}
 
 ul{
     list-style: none;
 }
 
 .container{
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 /*navigation*/
 
-.nav-main{
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
+.navbar{
+    width: 100%;
+    margin: auto;
+    border: 1px solid transparent;
+    background: #fff;
+    border-radius: 100px;
+    min-height: 0;
+    float: left;
+    left: 50%;
+    transform: translatex(-50%);
+    position: relative;
+    
+}
+.navbar-brand{
+    left: 6%;
+    transform: translatex(-50%);
+    position: relative;
+    font-weight: 1000;
+}
+.navbar-nav a{
+    left: 122.5%;
+    transform: translatex(-50%);
+    position: relative;
+}
+.navbar-nav{
+    font-size: 25px;
     align-items: center;
-    height: 60px;
+    font-family: oswald, sans-serif;
+    font-style: normal;
 }
-.nav-brand {
-    width: 80px;
-}
-.nav-main ul{
-    display: flex;
-}
-.nav-main ul li{
-    padding: 30px;
-}
-.nav-main ul li a{
-    padding: 1px;
-}
-.nav-main ul li a:hover{
-    border-radius: 10px;
-    opacity: .7;
-
-}
-.nav-main ul.nav-menu{
-    flex: 1;
-    margin-left: 20px;
+.navbar-nav a{
+    width: 125px;
 }
 
 /*showcase*/
-hr {
-    margin: 9.5px;
-    background-color: #000000;
+hr{
+    width: 1px;
 }

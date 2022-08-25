@@ -12,70 +12,58 @@ body{
     font-weight: 100;
     font-style: normal;
 }
-a{
-    color: rgb(8, 5, 5);
-}
 
 ul{
     list-style: none;
 }
 
 .container{
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 /*navigation*/
-.navbar-brand a{
-    font-size: 100px;
-}
+
 .navbar{
     width: 100%;
     margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border: 1px solid transparent;
+    background: #fff;
+    border-radius: 100px;
+    min-height: 0;
+    float: left;
+    left: 50%;
+    transform: translatex(-50%);
+    position: relative;
+    
+}
+.navbar-brand{
+    left: 6%;
+    transform: translatex(-50%);
+    position: relative;
+    font-weight: 1000;
+}
+.navbar-nav a{
+    left: 122.5%;
+    transform: translatex(-50%);
+    position: relative;
 }
 .navbar-nav{
-    font-size: 20px;
+    font-size: 25px;
     align-items: center;
     font-family: oswald, sans-serif;
     font-style: normal;
 }
 .navbar-nav a{
-    width: 120px;
-}
-.nav-main{
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-.nav-main ul{
-    display: flex;
-}
-.nav-main ul li{
-    padding: 30px;
-}
-.nav-main ul li a{
-    padding: 1px;
-}
-.nav-main ul li a:hover{
-    border-radius: 10px;
-    opacity: .7;
-
-}
-.nav-main ul.nav-menu{
-    flex: 1;
-    margin-left: 20px;
+    width: 125px;
 }
 
 /*showcase*/
+hr{
+    width: 1px;
+}
 
 .showcase {
-    width: 100%;
+    width: 90%;
     height: 550px;
     background: url(img/eco2.jpg) no-repeat center center/cover;
     padding-bottom: 15px;
@@ -84,6 +72,10 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 80px;
+    min-height: 0;
     
 }
 .btn {
@@ -93,7 +85,7 @@ ul{
     font-weight: bold;
     padding: 10px 40px;
     background: #262626;
-    color: #ffff;
+    color:  #ffff;
     font-size: 15px;
     border: 1px solid #ffff;
 
@@ -115,6 +107,9 @@ ul{
 .news-cards img{
     width: 100%;
     height: 180px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    min-height: 0;
 
 }
 .news-cards h3 {
