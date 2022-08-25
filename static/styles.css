@@ -13,9 +13,6 @@ body{
     font-style: normal;
 }
 
-ul{
-    list-style: none;
-}
 
 .container{
     width: 100%;
@@ -27,14 +24,14 @@ ul{
     width: 100%;
     margin: auto;
     border: 1px solid transparent;
-    background: #fff;
-    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
     min-height: 0;
     float: left;
     left: 50%;
     transform: translatex(-50%);
     position: relative;
-    
+    background-image: url(./img/eco.jpg);
 }
 .navbar-brand{
     left: 6%;
@@ -42,19 +39,20 @@ ul{
     position: relative;
     font-weight: 1000;
 }
+/*letras de la barra*/
 .navbar-nav a{
-    left: 110%;
+    left: 100%;
     transform: translatex(-50%);
     position: relative;
 }
+/*---------------*/
 .navbar-nav{
-    font-size: 25px;
-    align-items: center;
+    font-size: 20px;
     font-family: oswald, sans-serif;
     font-style: normal;
 }
 .navbar-nav a{
-    width: 125px;
+    width: 100%;
 }
 
 /*showcase*/
@@ -80,6 +78,9 @@ hr{
 }
 .showcase h2{
     font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-style: bold;
     
 }
 .btn {
@@ -89,17 +90,20 @@ hr{
     font-weight: bold;
     padding: 10px 40px;
     background: #262626;
-    color:  #ffff;
+    color:  rgb(6, 4, 4);
     font-size: 15px;
-    border: 1px solid #ffff;
+    border: 1px solid rgb(0, 0, 0);
 
 }
 .btn:hover{
     opacity: .7;
 }
-.showcase h2,
 .showcase p {
+    background-color: #ffff;
     margin-bottom: 10px;
+    font-weight: 2000;
+    font-size: 20px;
+    text-align: center;
 }
 /* NEWS CARD*/
 .news-cards {
@@ -117,17 +121,27 @@ hr{
 
 }
 .news-cards h3 {
+    text-align: center;
     font-size: 20px;
     margin: 10px 0;
 }
 .news-cards a{ 
+    border: 1px solid transparent;
+    border-radius: 10px;
     padding: 10px 0;
     color: #010000;
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
 }
-
+.news-cards{
+    background-color: rgb(162, 222, 236);
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
 .news-cards a:hover{
     text-decoration: coral;
+}
+.news-cards a{
+    text-align: center;
 }
