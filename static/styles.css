@@ -4,9 +4,9 @@
     padding: 0;
 }
 body{
-    background: #2193b0;  /* fallback for old browsers */
+    background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ffd900, #ffc400); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     font-family: oswald, sans-serif;
     font-weight: 100;
@@ -17,6 +17,10 @@ body{
 .container{
     width: 100%;
     margin: auto;
+    background-color: #baccff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    
 }
 /*navigation*/
 
@@ -38,10 +42,13 @@ body{
     transform: translatex(-50%);
     position: relative;
     font-weight: 1000;
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-radius: 30px;
 }
 /*letras de la barra*/
 .navbar-nav a{
-    left: 100%;
+    left: 50%;
     transform: translatex(-50%);
     position: relative;
 }
@@ -105,7 +112,7 @@ hr{
     font-weight: bold;
 }
 .news-cards{
-    background-color: rgb(162, 222, 236);
+    background-color: rgb(255, 255, 255);
     border: 10px solid transparent;
     border-radius: 30px;
 }
