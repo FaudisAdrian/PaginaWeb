@@ -10,7 +10,7 @@
     <!---Font OSWALD---------->
     <link rel="stylesheet" href="https://use.typekit.net/vch5lyp.css">
     <!------Custom CSS-------->
-    <link rel="stylesheet" href="static/contactos.css">
+    <link rel="stylesheet" href="static/form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
@@ -20,21 +20,81 @@
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html" style="color: rgb(255, 255, 255)">INICIO</a>
+            <a class="navbar-brand" href="/index.html" style="color: rgb(255, 255, 255); ">INICIO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
+                    
                     <a class="nav-link" href="hoteles.html">HOTELES</a>
                     <a class="nav-link" href="turismo.html">TURISMO</a>
-                    <a class="nav-link" href="contactos.html">CONTACTOS</a>
+                    <a class="nav-link" href="contactos.html">CONTACTO</a>
 
                 </div>
             </div>
         </div>
     </nav>
+    <div class="container">
         <hr>
-  </body>
-  </html>
+<div class="news-cards">
+	<div id="contenidos-paginas">
+		<div id="centro3">
+			<h2>
+				<em class="encabezados t1">Contactanos</em> 
+			</h2>
+			<p class="descripcion-pagina">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</p>
+			<hr>
+
+			<div id="contenido-nosotros">
+				
+				<div id="izquierda">
+					<p class="descripcion-pagina texto-contacto">
+						si necesitas de nosotros, puedes contactarte con nuestro equipo de soporte y ayuda al cliente.<br>
+						Telélefono: <strong>000000000000</strong><br>
+						Celular: <strong>0000000000</strong><br>
+						Email: <strong><a href="mailto: jafetmacea747@gmail.com" class="email-contacto">jafetmacea747@gmail.com</a></strong>
+					</p>
+				</div>	
+
+
+				<div id="derecha">
+					<form action="#" method="POST">
+						<input type="text" name="nombre" placeholder="Ingresa tu nombre" class="nombre-mensaje">
+						<br>
+						<input type="correo" name="correo" placeholder="Ingresa tu correo" class="email-asunto">
+
+						<input type="text" name="asunto" placeholder="Ingresa el asunto" class="email-asunto"><br>
+
+						<textarea name="mensaje" placeholder="Ingrese su mensaje " class="nombre-mensaje"></textarea><br>
+
+						<input type="submit" name="enviar" value="Enviar Mensaje">
+					</form>
+				</div>
+
+				<div id="mapa">
+					<iframe src="/static/img/mapa.jpg" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				
+
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+
+	<div id="pie">
+		<div id="centro-pie">
+			<p>
+				(c) Todos los derechos reservados - 
+				Diseñado por <a href="Luisalbertoortiz318@gmail.com" class="contacto">LUIS ALBERTO Y JAFET</a> - 2022
+			</p>
+		</div>
+	</div>
+</body>
+</html>
